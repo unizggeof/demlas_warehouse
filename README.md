@@ -10,5 +10,11 @@ PHP, HTML and JavaScript web application capable to browse data in preconfigured
 App is powered by [Evoluted Directory Listing Script](https://github.com/XnSger/EvoDire)
 
 ### 3. Metadata editor
+
+Angular based app providing users a web form to collect descriptive information - metadata about information resources. Basic validation is ensured by mandatory input fields. Metadata can be downloaded as Dublin Core XML, after basic authentication saved in the DEMLAS warehouse as well as published in the DEMLAS catalogue.
+
+Online app is available here: https://demlas.geof.unizg.hr/warehouse/editor/#?c=0:0:1
 ### 4. Geoserver
+WebGIS server based on [Geoserver](https://github.com/geoserver/geoserver) offering a provision of geospatial data using services standardized by Open Geospatial Consortium (OGC).  
 ### 5. Catalogue
+Catalogue application based on [Geonetwork](https://github.com/geonetwork/core-geonetwork) integrated into warehouse via API used to collect and manage metadata about resources from the warehouse.
